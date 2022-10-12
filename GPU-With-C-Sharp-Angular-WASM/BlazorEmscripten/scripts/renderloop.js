@@ -15,7 +15,7 @@
 //As a result
 //The scene will only draw new frames 
 renderLoop = () => {
-    window.csharpInstance.invokeMethodAsync('RenderInBlazor');
+    window.csharpInstance.invokeMethod('RenderInBlazor');
     window.requestAnimationFrame(renderLoop);
 }
 
