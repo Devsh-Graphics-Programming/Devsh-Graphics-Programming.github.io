@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>BlazorEmscripten</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="BlazorEmscripten.Client.styles.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+</head>
+
+<body>
+    <div id="app">Loading...
+    <h1>Pathtracing in Blazor without razor</h1>
+
+    <canvas tabindex="-1" width="1280" height="720" id="canvas"></canvas>
+    <!--onmouseup="MouseClickUp"
+    @onmousedown="MouseClickDown"
+    @onmousemove="MouseMove"
+    @onkeydown="KeyPress"-->
+
+    <p>Controls: Change backgrounds with 1,2,3,4,5. Drag mouse to rotate.</p>
+    </div>
+
+    <script src="scripts/renderloop.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+# ninja log v5
+40	2784	6954068658200468	CMakeFiles/EmscriptenHTML5.dir/main.cpp.o	73a559c31b8c95b3
+48	3207	6954068660538300	CMakeFiles/EmscriptenHTML5.dir/window.cpp.o	e10714c3abc48795
+1	4781	6954068678522435	CMakeFiles/EmscriptenHTML5.dir/callbacks.cpp.o	bd44fdbdfa5bebae
+27	5735	6954068688646832	CMakeFiles/EmscriptenHTML5.dir/renderer.cpp.o	c981e1d400743d96
+5735	40798	6954069032621294	EmscriptenHTML5.html	9f9ecef87c9756f5

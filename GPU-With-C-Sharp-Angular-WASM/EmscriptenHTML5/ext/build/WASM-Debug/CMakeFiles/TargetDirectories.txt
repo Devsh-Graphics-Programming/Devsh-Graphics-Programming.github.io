@@ -1,0 +1,3 @@
+C:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/projects/EmscriptenHTML5/ext/build/WASM-Debug/CMakeFiles/EmscriptenHTML5.dir
+C:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/projects/EmscriptenHTML5/ext/build/WASM-Debug/CMakeFiles/edit_cache.dir
+C:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/projects/EmscriptenHTML5/ext/build/WASM-Debug/CMakeFiles/rebuild_cache.dir

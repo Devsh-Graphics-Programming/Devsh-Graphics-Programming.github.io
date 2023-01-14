@@ -1,0 +1,7 @@
+# ninja log v5
+14	1499	6954074100985173	CMakeFiles/EmscriptenHTML5SeparateLibs.dir/main.cpp.o	6f866fbbfebde1b7
+21	1509	6954074101190283	CMakeFiles/EmscriptenHTML5SeparateLibs.dir/window.cpp.o	582f50eb05770340
+8	2105	6954074107287653	CMakeFiles/EmscriptenHTML5SeparateLibs.dir/callbacks.cpp.o	881e28c26983380e
+1	2824	6954074114503644	CMakeFiles/Renderer.dir/renderer.cpp.o	2de1ae421a207c48
+2824	3130	6954074116397457	libRenderer.wasm	4e7e93e41fc347fa
+3131	11126	6954074197693059	EmscriptenHTML5SeparateLibs.html	5c0f2f7e40c064fd
