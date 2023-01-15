@@ -1,6 +1,6 @@
 # ninja log v5
-25	2974	6954846645426038	CMakeFiles/EmscriptenGLFW.dir/window.cpp.o	f8458ec9821f0937
-0	2978	6954846645406001	CMakeFiles/EmscriptenGLFW.dir/main.cpp.o	21365d401227c731
-20	3536	6954846651118041	CMakeFiles/EmscriptenGLFW.dir/callbacks.cpp.o	5a02ba2ad1ca288a
-15	4189	6954846657632269	CMakeFiles/EmscriptenGLFW.dir/renderer.cpp.o	dedbdba522aec0fa
-4189	18091	6954846796219290	EmscriptenGLFW.html	de3b288ac390a8b2
+15	3384	6954898555259763	CMakeFiles/EmscriptenGLFW.dir/main.cpp.o	21365d401227c731
+25	3397	6954898555389059	CMakeFiles/EmscriptenGLFW.dir/window.cpp.o	f8458ec9821f0937
+0	3964	6954898561148066	CMakeFiles/EmscriptenGLFW.dir/callbacks.cpp.o	5a02ba2ad1ca288a
+20	4596	6954898567483639	CMakeFiles/EmscriptenGLFW.dir/renderer.cpp.o	dedbdba522aec0fa
+4597	18709	6954898708161487	EmscriptenGLFW.html	de3b288ac390a8b2
