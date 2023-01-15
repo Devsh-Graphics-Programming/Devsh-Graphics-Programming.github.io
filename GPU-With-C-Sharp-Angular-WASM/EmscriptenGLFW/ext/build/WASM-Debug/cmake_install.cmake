@@ -1,8 +1,8 @@
-# Install script for directory: C:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/EmscriptenGLFW
+# Install script for directory: C:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/EmscriptenGLFW
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/projects/EmscriptenGLFW/ext/build/WASM-Debug/install")
+  set(CMAKE_INSTALL_PREFIX "C:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/projects/EmscriptenGLFW/ext/build/WASM-Debug/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/projects/EmscriptenGLFW/ext/build/WASM-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/projects/EmscriptenGLFW/ext/build/WASM-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

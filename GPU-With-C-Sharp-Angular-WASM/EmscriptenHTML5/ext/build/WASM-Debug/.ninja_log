@@ -1,6 +1,6 @@
 # ninja log v5
-11	1504	6954074100519851	CMakeFiles/EmscriptenHTML5.dir/main.cpp.o	73a559c31b8c95b3
-17	1515	6954074100719908	CMakeFiles/EmscriptenHTML5.dir/window.cpp.o	e10714c3abc48795
-0	2039	6954074106398452	CMakeFiles/EmscriptenHTML5.dir/callbacks.cpp.o	bd44fdbdfa5bebae
-6	2767	6954074113828134	CMakeFiles/EmscriptenHTML5.dir/renderer.cpp.o	c981e1d400743d96
-2767	5920	6954074145504752	EmscriptenHTML5.html	bdb4b7ca92f9695e
+0	1159	6954848660231500	CMakeFiles/EmscriptenHTML5.dir/main.cpp.o	df90dd631f381887
+10	1162	6954848660241437	CMakeFiles/EmscriptenHTML5.dir/window.cpp.o	de360a71ddb75ab5
+5	1565	6954848664400318	CMakeFiles/EmscriptenHTML5.dir/callbacks.cpp.o	849de1c80dceb338
+15	2192	6954848670684009	CMakeFiles/EmscriptenHTML5.dir/renderer.cpp.o	942032d78945ef45
+2193	4733	6954848696243907	EmscriptenHTML5.html	411592572f0a9100

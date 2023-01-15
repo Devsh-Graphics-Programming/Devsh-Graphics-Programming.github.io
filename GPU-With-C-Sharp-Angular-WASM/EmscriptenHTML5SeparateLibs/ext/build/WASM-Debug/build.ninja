@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/projects/EmscriptenHTML5SeparateLibs/ext/build/WASM-Debug/
+cmake_ninja_workdir = C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/projects/EmscriptenHTML5SeparateLibs/ext/build/WASM-Debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target Renderer
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/private/work/programming/current/GPU-With-C-Sharp-Angu
 
 build cmake_object_order_depends_target_Renderer: phony || CMakeFiles/Renderer.dir
 
-build CMakeFiles/Renderer.dir/renderer.cpp.o: CXX_COMPILER__Renderer_WASM-Debug C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/EmscriptenHTML5SeparateLibs/renderer.cpp || cmake_object_order_depends_target_Renderer
+build CMakeFiles/Renderer.dir/renderer.cpp.o: CXX_COMPILER__Renderer_WASM-Debug C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/EmscriptenHTML5SeparateLibs/renderer.cpp || cmake_object_order_depends_target_Renderer
   DEP_FILE = CMakeFiles\Renderer.dir\renderer.cpp.o.d
   FLAGS = -fPIC
   OBJECT_DIR = CMakeFiles\Renderer.dir
@@ -79,19 +79,19 @@ build libRenderer.wasm: CXX_STATIC_LIBRARY_LINKER__Renderer_WASM-Debug CMakeFile
 
 build cmake_object_order_depends_target_EmscriptenHTML5SeparateLibs: phony || cmake_object_order_depends_target_Renderer
 
-build CMakeFiles/EmscriptenHTML5SeparateLibs.dir/window.cpp.o: CXX_COMPILER__EmscriptenHTML5SeparateLibs_WASM-Debug C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/EmscriptenHTML5SeparateLibs/window.cpp || cmake_object_order_depends_target_EmscriptenHTML5SeparateLibs
+build CMakeFiles/EmscriptenHTML5SeparateLibs.dir/window.cpp.o: CXX_COMPILER__EmscriptenHTML5SeparateLibs_WASM-Debug C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/EmscriptenHTML5SeparateLibs/window.cpp || cmake_object_order_depends_target_EmscriptenHTML5SeparateLibs
   DEP_FILE = CMakeFiles\EmscriptenHTML5SeparateLibs.dir\window.cpp.o.d
   FLAGS = -fPIC
   OBJECT_DIR = CMakeFiles\EmscriptenHTML5SeparateLibs.dir
   OBJECT_FILE_DIR = CMakeFiles\EmscriptenHTML5SeparateLibs.dir
 
-build CMakeFiles/EmscriptenHTML5SeparateLibs.dir/callbacks.cpp.o: CXX_COMPILER__EmscriptenHTML5SeparateLibs_WASM-Debug C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/EmscriptenHTML5SeparateLibs/callbacks.cpp || cmake_object_order_depends_target_EmscriptenHTML5SeparateLibs
+build CMakeFiles/EmscriptenHTML5SeparateLibs.dir/callbacks.cpp.o: CXX_COMPILER__EmscriptenHTML5SeparateLibs_WASM-Debug C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/EmscriptenHTML5SeparateLibs/callbacks.cpp || cmake_object_order_depends_target_EmscriptenHTML5SeparateLibs
   DEP_FILE = CMakeFiles\EmscriptenHTML5SeparateLibs.dir\callbacks.cpp.o.d
   FLAGS = -fPIC
   OBJECT_DIR = CMakeFiles\EmscriptenHTML5SeparateLibs.dir
   OBJECT_FILE_DIR = CMakeFiles\EmscriptenHTML5SeparateLibs.dir
 
-build CMakeFiles/EmscriptenHTML5SeparateLibs.dir/main.cpp.o: CXX_COMPILER__EmscriptenHTML5SeparateLibs_WASM-Debug C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/EmscriptenHTML5SeparateLibs/main.cpp || cmake_object_order_depends_target_EmscriptenHTML5SeparateLibs
+build CMakeFiles/EmscriptenHTML5SeparateLibs.dir/main.cpp.o: CXX_COMPILER__EmscriptenHTML5SeparateLibs_WASM-Debug C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/EmscriptenHTML5SeparateLibs/main.cpp || cmake_object_order_depends_target_EmscriptenHTML5SeparateLibs
   DEP_FILE = CMakeFiles\EmscriptenHTML5SeparateLibs.dir\main.cpp.o.d
   FLAGS = -fPIC
   OBJECT_DIR = CMakeFiles\EmscriptenHTML5SeparateLibs.dir
@@ -119,7 +119,7 @@ build EmscriptenHTML5SeparateLibs.html: CXX_EXECUTABLE_LINKER__EmscriptenHTML5Se
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\EmscriptenHTML5SeparateLibs -BC:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\EmscriptenHTML5SeparateLibs -BC:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -131,7 +131,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\EmscriptenHTML5SeparateLibs -BC:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\EmscriptenHTML5SeparateLibs -BC:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\build\projects\EmscriptenHTML5SeparateLibs\ext\build\WASM-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -151,7 +151,7 @@ build Renderer: phony libRenderer.wasm
 # =============================================================================
 
 #############################################
-# Folder: C:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/projects/EmscriptenHTML5SeparateLibs/ext/build/WASM-Debug
+# Folder: C:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/projects/EmscriptenHTML5SeparateLibs/ext/build/WASM-Debug
 
 build all: phony libRenderer.wasm EmscriptenHTML5SeparateLibs.html
 
@@ -167,14 +167,14 @@ build all: phony libRenderer.wasm EmscriptenHTML5SeparateLibs.html
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/EmscriptenHTML5SeparateLibs/CMakeLists.txt C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake CMakeCache.txt CMakeFiles/3.25.1/CMakeCCompiler.cmake CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/EmscriptenHTML5SeparateLibs/CMakeLists.txt C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake CMakeCache.txt CMakeFiles/3.25.0-rc1/CMakeCCompiler.cmake CMakeFiles/3.25.0-rc1/CMakeCXXCompiler.cmake CMakeFiles/3.25.0-rc1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/EmscriptenHTML5SeparateLibs/CMakeLists.txt C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/private/work/programming/current/GPU-With-C-Sharp-Angular-WASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake CMakeCache.txt CMakeFiles/3.25.1/CMakeCCompiler.cmake CMakeFiles/3.25.1/CMakeCXXCompiler.cmake CMakeFiles/3.25.1/CMakeSystem.cmake: phony
+build C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/EmscriptenHTML5SeparateLibs/CMakeLists.txt C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/home/jenkins/workspace/BuildGPUWithCSharpAngularWASM/build/3rdparty/external/emscripten/unpack/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake CMakeCache.txt CMakeFiles/3.25.0-rc1/CMakeCCompiler.cmake CMakeFiles/3.25.0-rc1/CMakeCXXCompiler.cmake CMakeFiles/3.25.0-rc1/CMakeSystem.cmake: phony
 
 
 #############################################

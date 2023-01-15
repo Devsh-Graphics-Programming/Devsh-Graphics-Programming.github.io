@@ -17,7 +17,7 @@
 rule CXX_COMPILER__EmscriptenGLFW_WASM-Release
   depfile = $DEP_FILE
   deps = gcc
-  command = C:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\build\3rdparty\external\emscripten\unpack\upstream\emscripten\em++.bat $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\build\3rdparty\external\emscripten\unpack\upstream\emscripten\em++.bat $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -25,7 +25,7 @@ rule CXX_COMPILER__EmscriptenGLFW_WASM-Release
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__EmscriptenGLFW_WASM-Release
-  command = cmd.exe /C "$PRE_LINK && C:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\build\3rdparty\external\emscripten\unpack\upstream\emscripten\em++.bat $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\build\3rdparty\external\emscripten\unpack\upstream\emscripten\em++.bat $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\EmscriptenGLFW -BC:\private\work\programming\current\GPU-With-C-Sharp-Angular-WASM\build\projects\EmscriptenGLFW\ext\build\WASM-Release
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\EmscriptenGLFW -BC:\home\jenkins\workspace\BuildGPUWithCSharpAngularWASM\build\projects\EmscriptenGLFW\ext\build\WASM-Release
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\private\work\ninja\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\ninja\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\private\work\ninja\ninja.exe -t targets
+  command = C:\ninja\ninja.exe -t targets
   description = All primary targets available:
 
